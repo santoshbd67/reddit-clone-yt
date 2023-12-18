@@ -5,7 +5,7 @@ WORKDIR /reddit-clone
 
 COPY . /reddit-clone
 
-RUN npm install --force
+RUN npm install -g npm@10.2.5
 
 EXPOSE 3000
 
