@@ -1,11 +1,11 @@
 
-FROM node:19-alpine3.15
+FROM node:18.17.0-alpine3.15
 
 WORKDIR /reddit-clone
 
 COPY . /reddit-clone
 
-RUN npm install -g npm@10.2.5
+RUN npm install -g npm
 
 EXPOSE 3000
 
